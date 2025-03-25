@@ -8,7 +8,7 @@ import {
   Button,
   Title
 } from '@mantine/core';
-import '@/app/ansi-button-styles.css' // Import the CSS styles
+import '@/app/ansi-button-styles.css' 
 
 type ColorItem = {
   code: string;
@@ -46,14 +46,14 @@ export default function DiscordColorGenerator() {
   const generateAnsiCode = () => {
     const codes: string[] = [];
     
-    // Add styles
+  
     if (activeStyles.includes('Bold')) codes.push('1');
     if (activeStyles.includes('Line')) codes.push('4');
     
-    // Add foreground color
+    
     if (selectedFg) codes.push(selectedFg);
     
-    // Add background color
+    
     if (selectedBg) codes.push(selectedBg);
 
     return codes.length > 0 
@@ -173,7 +173,7 @@ export default function DiscordColorGenerator() {
           className='text-area'
           value={inputText}
           onChange={(e) => setInputText(e.currentTarget.value)}
-          placeholder="Welcome to Rebane's Discord Colored Text Generator!"
+          placeholder="Welcome to Discord Colored Text Generator!"
           minRows={6}
           styles={{
             input: {
