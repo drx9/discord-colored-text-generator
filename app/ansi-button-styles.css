@@ -1,0 +1,50 @@
+.style-button {
+    min-height: 32px;
+    min-width: 32px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #4f545c;
+    font-size: 14px;
+    padding: 2px 16px;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+  }
+  
+  .style-button.active {
+    border: 2px solid white;
+  }
+
+  .btn{
+    min-height: 32px;
+    min-width: 32px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #4f545c;
+    font-size: 14px;
+    padding: 2px 16px;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+  }
+  
+  /* Foreground Colors */
+  .style-button.ansi-30-bg { background-color: #4f545c; }
+  .style-button.ansi-31-bg { background-color: #dc322f; }
+  .style-button.ansi-32-bg { background-color: #859900; }
+  .style-button.ansi-33-bg { background-color: #b58900; }
+  .style-button.ansi-34-bg { background-color: #268bd2; }
+  .style-button.ansi-35-bg { background-color: #d33682; }
+  .style-button.ansi-36-bg { background-color: #2aa198; }
+  .style-button.ansi-37-bg { background-color: #ffffff; }
+  
+  /* Background Colors */
+  .style-button.ansi-40-bg { background-color: #002b36; }
+  .style-button.ansi-41-bg { background-color: #cb4b16; }
+  .style-button.ansi-42-bg { background-color: #586e75; }
+  .style-button.ansi-43-bg { background-color: #657b83; }
+  .style-button.ansi-44-bg { background-color: #839496; }
+  .style-button.ansi-45-bg { background-color: #6c71c4; }
+  .style-button.ansi-46-bg { background-color: #93a1a1; }
+  .style-button.ansi-47-bg { background-color: #fdf6e3; }
+
